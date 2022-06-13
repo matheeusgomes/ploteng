@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+	height: 1500px;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1000px;
+	padding: 15px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 120px;
+	border-bottom: 1px solid #ccc;
+}
+
+.wpp {
+    right: 0px;
+    bottom: 20px;
+    position: fixed;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.wpp img {
+	width: 260px;
+}
+
+.header-logo img{
+	display: flex;
+	width: 200px;
+	height: auto;
+	margin: 20px 50px;
+}
+
+.header-menu ul{
+	display: flex;
+	list-style: none;
+}
+
+.header-menu li a{
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #ED3237;
+	font-weight: 600;
+}
+
+.header-menu li a:hover {
+	color: #00afef;
+	text-decoration: underline;
+}
+
+.header-menu li img {
+	display: flex;
+	width: 20px;
+	margin-right: 10px;
+}
+
+.banner img{
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.quem-somos {
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.quem-somos-description {
+	line-height: 25px;
+}
+
+.quem-somos-imagem {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.quem-somos-imagem img{
+	display: flex;
+}
+.titulos {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #ED3237;
+	font-weight: 700;
+}
+
+.servicos--area {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.servicos--area h2 {
+	color: #00afef;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.servicos--area-box {
+	width: 300px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.servicos--area-box img{
+	width: 300px;
+	height: 300px;
+}
+
+.servico--text {
+	text-align: justify;
+}
