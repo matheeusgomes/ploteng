@@ -144,6 +144,10 @@ header {
 	text-align: justify;
 }
 
+.servico--text ul, li {
+	margin-left: 20px;
+}
+
 .contato--area{
 	display: flex;
 	flex-wrap: wrap;
